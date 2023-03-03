@@ -152,3 +152,57 @@ p {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
 }
+
+.box__wrapper.analysis {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.analysis__hdl {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2.25rem;
+    color: var(--secondary-color);
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.analysis__box {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 6.25rem;
+}
+.analysis__col {
+    display: inline-block;
+    justify-content: center;
+    width: 20rem;
+    text-align: center;
+}
+.analysis__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    width: 100%;
+}
+.analysis__text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.0625rem;
+    color: var(--third-color);
+}
+
+.analysis__img.col1{
+    background-color: rgba(251, 59, 100, 1);
+    border-radius: 50%;
+    overflow: initial;
+}.analysis__img.col2{
+    background-color: rgba(8, 166, 228, 1);
+    border-radius: 50%;
+    overflow: initial;
+}.analysis__img.col3{
+    background-color: rgba(85, 223, 180, 1);
+    border-radius: 50%;
+    overflow: initial;
+}
